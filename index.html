@@ -9,6 +9,31 @@
   </head>
   <body>
     <h1>World Clock</h1>
+    <input
+      type="text"
+      id="city-search"
+      placeholder="Select a city..."
+      list="cities"
+    />
+    <datalist id="cities">
+      <option value="Johannesburg"></option>
+      <option value="London"></option>
+      <option value="Tokyo"></option>
+      <option value="Sydney"></option>
+      <option value="New York"></option>
+    </datalist>
+
+    <div class="clock-container">
+      <div class="analog-clock">
+        <div class="hand hour" id="hour-hand"></div>
+        <div class="hand minute" id="minute-hand"></div>
+        <div class="hand second" id="second-hand"></div>
+      </div>
+      <h2 id="city-name">Johannesburg</h2>
+      <p id="digital-time"></p>
+      <p id="date"></p>
+    </div>
+
     <footer>
       This project was coded by Melinda Ndou and is
       <a href="https://github.com/MphoMN/world-clock-project" target="_blank">
