@@ -3,7 +3,7 @@ let cities = {
   London: "Europe/London",
   Tokyo: "Asia/Tokyo",
   Sydney: "Australia/Sydney",
-  New_York: "America/New_York",
+  "New York": "America/New_York",
 };
 
 let selectedCity = "Johannesburg"; // Default city
